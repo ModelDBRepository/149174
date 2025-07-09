@@ -1,0 +1,13 @@
+# Thomas EA, Petrou S (2013) Network-specific mechanisms may explain the paradoxical effects of carbamazepine and phenytoin. *Epilepsia*
+
+These are the source files to generate Fig 2A (left panel) and the data for Fig 4.
+
+1. The first is Matlab code and demonstrates how the Markov model is built from a Hodgkin Huxley model. Run `Vclamp.m`
+
+2. The second is the network model. Do the usual NEURON thing to build the mechanism executable. Edit `runall.py` to work with your environment then run `python ./runall.py` to submit the jobs that generate the data.
+
+Any questions? Email me evan@evan-thomas.net.
+
+---
+
+2025-07-09: Converted README to Markdown.
